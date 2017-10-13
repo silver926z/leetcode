@@ -3,7 +3,8 @@
 
 
 int main(int argc, char **argv){
-    double rate = 123.45;
-    printf("rate: '%08f'\n", rate);
+    char *name;
+    name = "silver";
+    printf("%s\n",name);
     return 0;
 }
